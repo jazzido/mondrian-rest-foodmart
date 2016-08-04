@@ -14,6 +14,10 @@ It implements a simple [OLAP Cube](https://en.wikipedia.org/wiki/OLAP_cube) with
   - Download the [foodmart database](https://raw.githubusercontent.com/pentaho/mondrian/0513fbe724619a7c669009b7539bf51d1faaa858/demo/derby/derby-foodmart.zip) and unzip it to the `db` directory.
   - Run: `rackup`
 
+## See also
+
+  - [mondrian-rest-demo](https://github.com/jazzido/mondrian-rest-demo) for example queries.
+
 ## License
 
 The MIT License (MIT)
