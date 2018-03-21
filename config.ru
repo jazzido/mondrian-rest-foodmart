@@ -1,13 +1,14 @@
-require 'bundler'
-Bundler.setup
+
+require 'jbundler'
+require 'jdbc/derby'
+Jdbc::Derby.load_driver
+
 
 require 'rack/config'
 require 'rack/cors'
 require 'logger'
 require 'mondrian_rest'
 
-require 'jdbc/derby'
-Jdbc::Derby.load_driver
 
 logger = Logger.new(STDERR)
 logger.level = Logger::DEBUG
